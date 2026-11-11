@@ -1,6 +1,6 @@
 let img;
 
-function preload(){
+function preload() {
   img = loadImage("Earth.jpg");
 }
 
@@ -9,9 +9,15 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(30, 30, 60);
 
   //Draw the image
   image(img, 0, 0, 400, 400);
+
+  //Title
+  fill(255);
+  textSize(18);
+  textAlign(CENTER);
+  text("Media", 200, 30);
   
 }

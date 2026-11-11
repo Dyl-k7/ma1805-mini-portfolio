@@ -1,0 +1,1 @@
+For this project, I created a simpleface using sqaures and an ellipse.Iexperimented with different colours such as 

@@ -3,14 +3,24 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(30, 30, 60);
+
+
+  //Title
+  fill(255);
+  textSize(18);
+  textAlign(CENTER);
+  text("Drawing", 200, 30);
 
   //Eyes
-  fill(255, 0, 0.5)
-  square(50, 50, 50)
-  square(200, 50, 50)
+  fill(255, 80, 80);
+  stroke(255); //Eye Outline colour
+  strokeWeight(2); //Eye Outline thickness
+
+  square(75, 100, 60);
+  square(265, 100, 60);
 
   //Mouth
-  fill(0, 255, 0, 255)
-  ellipse(150, 150, 200, 20)
+  fill(80, 255, 150);
+  ellipse(200, 250, 180, 30);
 }
